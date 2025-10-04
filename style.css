@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+body{
+    font-family: 'TikTok Sans', sans-serif;
+    background-color: #bebebe;
+    margin: 0;
+    padding: 20px;
+}
+
+section#inicio{
+    width: 100%;
+
+}
+
+.contenedorLibros, .contenedorAutores{
+    text-align: center;
+    margin: 20px 0;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+}
+
+.contenedorAutores article:hover, .contenedorLibros article:hover, section#inicio article:hover{
+    background-color: #5a5a5a;
+    color: #bebebe;
+}
+
+article{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 34px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;;
+}
